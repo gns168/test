@@ -21,7 +21,7 @@ body, html {
 }
 
 /* Images used */
-.img1 { background-image: url(/images/wedding1.jpg); }
+.img1 { background-image: url(/images/Chiori.full.4108251.jpg); }
 .img2 { background-image: url(/images/Eta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.4019767.png); }
 .img3 { background-image: url(/images/Alpha.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881298.png); }
 .img4 { background-image: url(/images/Beta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpg); }
@@ -72,7 +72,7 @@ body, html {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .column {
     width: 100%;
     display: block;
