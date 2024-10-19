@@ -48,7 +48,7 @@ body, html {
 
 /* 2.0  center content */
 .content {
-  max-width: 500px;
+  max-width: 300px;
   margin: auto;
   padding: 10px;
 }
@@ -57,7 +57,7 @@ body, html {
 /* 3.0  Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
   padding: 0 10px;
 }
 
@@ -89,3 +89,21 @@ body, html {
   color: white;
   background-color: rgba(0,0,0, 0.4); 
 }
+
+
+  /*
+  
+  change background on scroll
+  parallax scolling
+  sticky navbar
+  hero image
+  transparent image text
+
+  split screen
+  center image
+  coming soon
+  full screen video background
+  Shrink Menu on Scroll
+  Blurred Background Image
+
+  */
