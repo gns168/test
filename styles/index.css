@@ -12,7 +12,7 @@ body, html {
 
 .bg-image {
   /* Full height */
-  height: 50%; 
+  height: 100%; 
   
   /* Center and scale the image nicely */
   background-position: center;
@@ -21,7 +21,7 @@ body, html {
 }
 
 /* Images used */
-.img1 { background-image: url(/images/1320741.jpeg); }
+.img1 { background-image: url(/images/wedding1.jpg); }
 .img2 { background-image: url(/images/Eta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.4019767.png); }
 .img3 { background-image: url(/images/Alpha.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881298.png); }
 .img4 { background-image: url(/images/Beta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpg); }
@@ -50,7 +50,6 @@ body, html {
 .content {
   max-width: 500px;
   margin: auto;
-  background: white;
   padding: 10px;
 }
 
@@ -69,11 +68,11 @@ body, html {
 .row:after {
   content: "";
   display: table;
-  clear: both;
+
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
     display: block;
@@ -83,8 +82,10 @@ body, html {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translate(0%, 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  color: white;
+  background-color: rgba(0,0,0, 0.4); 
 }
