@@ -88,6 +88,9 @@ body, html {
   text-align: center;
   color: white;
   background-color: rgba(0,0,0, 0.4); 
+
+  position: relative;
+  bottom: -600px;
 }
 
 
