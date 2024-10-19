@@ -49,7 +49,20 @@
   <body>
 
     <h2></h2>
-    <p></p>
+    <p>
+      change background on scroll
+      parallax scolling
+      sticky navbar
+      hero image
+      transparent image text
+
+      split screen
+      center image
+      coming soon
+      full screen video background
+      Shrink Menu on Scroll
+      Blurred Background Image
+    </p>
 
     <div class="row">
       <div class="column">
@@ -71,7 +84,6 @@
     <script>
       // Set the date we're counting down to
       var countDownDate = new Date("Sep 13, 2009").getTime();
-      var countDownDate2 = new Date("Nov 6, 2010").getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function() {
@@ -81,22 +93,20 @@
           
         // Find the distance between now and the count down date
         var distance = now - countDownDate;
-        var distance2 = now - countDownDate2;
 
         // Time calculations for days, hours, minutes and seconds
         var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24)) - (years*365);
+
+        /*
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        var years2 = Math.floor(distance2 / (1000 * 60 * 60 * 24 * 365));
-        var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+        */
 
 
         // Output the result in an element with id="demo"
-        document.getElementById("toronto").innerHTML = + days + "d " + hours + "h ";
-        document.getElementById("sapporo").innerHTML = + days2 + "d " + hours2 + "h ";
+        document.getElementById("toronto").innerHTML = years+ "y " +days + "d ";
           
         // If the count down is over, write some text 
         if (distance < 0) {
@@ -123,13 +133,16 @@
           
         // Time calculations for days, hours, minutes and seconds
         var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24)) - (years*365);
+
+        /*
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        */
           
         // Output the result in an element with id="demo"
-        document.getElementById("sapporo").innerHTML = days + "d " + hours + "h ";
+        document.getElementById("sapporo").innerHTML = years+ "y " +days + "d ";
           
         // If the count down is over, write some text 
         if (distance < 0) {
