@@ -1,12 +1,61 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+/* 1.0 Background */
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Float four columns side by side */
+/* Images used */
+.img1 { background-image: url(/images/1320741.jpeg); }
+.img2 { background-image: url(/images/Eta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.4019767.png); }
+.img3 { background-image: url(/images/Alpha.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881298.png); }
+.img4 { background-image: url(/images/Beta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpg); }
+.img5 { background-image: url(/images/Delta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpeg); }
+.img6 { background-image: url(/images/Epsilon.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3983211.png); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 2.0  center content */
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+
+/* 3.0  Float four columns side by side */
 .column {
   float: left;
   width: 25%;
