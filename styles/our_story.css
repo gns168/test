@@ -69,6 +69,16 @@
     float: right;
   }
 
+  .logo {
+
+    background-color: #717171;
+    border-radius: 25px;
+    opacity: .8;
+
+  }
+
+
+
   .icon-img { 
     width: 40px;
     border-radius: 20px;

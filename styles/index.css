@@ -49,6 +49,14 @@ body, html {
 }
 
 
+.logo {
+
+  background-color: #717171;
+  border-radius: 25px;
+  opacity: .8;
+
+}
+
 /* 2.0  center content */
 .content {
   max-width: 300px;
