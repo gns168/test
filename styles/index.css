@@ -27,7 +27,7 @@ body, html {
 
 /* Images used */
 .img1 { background-image: url(/images/Chiori.full.4108251.jpg); }
-.img2 { background-image: url(/images/wedding1.jpg); }
+.img2 { background-image: url(/images/_DSC4433.jpg); }
 .img3 { background-image: url(/images/Alpha.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881298.png); }
 .img4 { background-image: url(/images/Beta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpg); }
 .img5 { background-image: url(/images/Delta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpeg); }
@@ -37,9 +37,9 @@ body, html {
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
+  color: rgb(224, 172, 216);
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid rgb(224, 172, 216);
   position: absolute;
   top: 25%;
   left: 50%;
@@ -91,7 +91,7 @@ body, html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   padding: 16px;
   text-align: center;
-  color: white;
+  color:  rgb(224, 172, 216);
   background-color: rgba(0,0,0, 0.4); 
 
 
