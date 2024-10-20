@@ -27,6 +27,8 @@ body, html {
 /* Images used */
 .img1 { background-image: url(/images/Chiori.full.4108251.jpg); }
 .img2 { background-image: url(/images/_DSC4433.jpg); }
+
+
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -35,7 +37,7 @@ body, html {
   font-weight: bold;
   border: 3px solid rgb(224, 172, 216);
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
