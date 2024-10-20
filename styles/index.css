@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 * {
@@ -19,20 +20,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 
-    /* Add the blur effect
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-     */
 }
 
 /* Images used */
 .img1 { background-image: url(/images/Chiori.full.4108251.jpg); }
 .img2 { background-image: url(/images/_DSC4433.jpg); }
-.img3 { background-image: url(/images/Alpha.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881298.png); }
-.img4 { background-image: url(/images/Beta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpg); }
-.img5 { background-image: url(/images/Delta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpeg); }
-.img6 { background-image: url(/images/Epsilon.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3983211.png); }
-
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -45,11 +37,13 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
-  padding: 20px;
+  width: 60%;
+  padding: 10px;
   text-align: center;
-  
+
+
 }
+
 
 /* 2.0  center content */
 .content {
