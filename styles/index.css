@@ -18,11 +18,16 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+    /* Add the blur effect
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+     */
 }
 
 /* Images used */
 .img1 { background-image: url(/images/Chiori.full.4108251.jpg); }
-.img2 { background-image: url(/images/Eta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.4019767.png); }
+.img2 { background-image: url(/images/wedding1.jpg); }
 .img3 { background-image: url(/images/Alpha.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881298.png); }
 .img4 { background-image: url(/images/Beta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpg); }
 .img5 { background-image: url(/images/Delta.\(Kage.No.Jitsuryokusha.Ni.Naritakute\).full.3881378.jpeg); }
@@ -34,16 +39,16 @@ body, html {
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  font-size: 80px;
-  border: 10px solid #f1f1f1;
-  position: fixed;
-  top: 50%;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 300px;
+  width: 80%;
   padding: 20px;
   text-align: center;
+  
 }
 
 /* 2.0  center content */
@@ -54,7 +59,7 @@ body, html {
 }
 
 
-/* 3.0  Float four columns side by side */
+/* 3.0  Float 2 columns side by side */
 .column {
   float: left;
   width: 50%;
@@ -89,8 +94,72 @@ body, html {
   color: white;
   background-color: rgba(0,0,0, 0.4); 
 
+
   position: relative;
   bottom: -600px;
+}
+
+/* 4.0 Navigation */
+
+#mySidenav a {
+  position: absolute;
+  left: -130px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#welcome {
+  top: 20px;
+  background-color: #b2b1b1;
+}
+
+#ourstory {
+  top: 80px;
+  background-color: #b2b1b1;
+}
+
+#bridegroom {
+  top: 140px;
+  background-color: #b2b1b1;
+}
+
+#weddingparty {
+  top: 200px;
+  background-color: #b2b1b1;
+}
+
+#ceremony{
+  top: 260px;
+  background-color: #b2b1b1;
+}
+
+#seating {
+  top: 320px;
+  background-color: #b2b1b1;
+}
+
+#bday15 {
+  top: 380px;
+  background-color: #b2b1b1;
+}
+
+#happy15 {
+  top: 445px;
+  background-color: #b2b1b1;
+}
+
+#ty {
+  top: 505px;
+  background-color: #b2b1b1;
 }
 
 
