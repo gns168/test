@@ -6,6 +6,14 @@
     
   }
 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
   /* 1.0  header and logo */
 
   #header {
@@ -16,7 +24,7 @@
     padding: 50px 10px;
     color: rgb(224, 172, 216);
     text-align: center;
-    font-size: 90px; 
+    font-size: 45px; 
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -36,13 +44,14 @@
 
   }
 
+
   /* 2.0 Navigation  */
 
   div.scrollmenu {
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
-    position: sticky;
+    position: fixed;
     bottom: 0;
   }
   
@@ -57,3 +66,4 @@
   div.scrollmenu a:hover {
     background-color: #777;
   }
+
