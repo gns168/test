@@ -71,7 +71,7 @@ body, html {
 }
 
 /* Responsive columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 200px) {
   .column {
     width: 100%;
     display: block;
@@ -90,7 +90,7 @@ body, html {
 
 
   position: relative;
-  bottom: -600px;
+  bottom: -500px;
 }
 
 /* 4.0 Navigation */
@@ -146,21 +146,3 @@ body, html {
     transform: none;
   }
 }
-
-
-  /*
-  
-  change background on scroll
-  parallax scolling
-  sticky navbar
-  hero image
-  transparent image text
-
-  split screen
-  center image
-  coming soon
-  full screen video background
-  Shrink Menu on Scroll
-  Blurred Background Image
-
-  */
