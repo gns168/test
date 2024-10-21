@@ -290,3 +290,8 @@
   vertical-align: middle;
   width: 100%;
 }
+
+.caption {
+  font-size: 10px;
+  text-align: center;
+}
