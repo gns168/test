@@ -203,12 +203,12 @@
 /* Position the "next button" to the right */
 .prev {
   left: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0px 25px 25px 0px;
 }
 
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 25px 0 0 25px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -290,9 +290,11 @@
   vertical-align: middle;
   width: 100%;
   border-radius: 25px;
+  
 }
 
 .caption {
   font-size: 10px;
   text-align: center;
+
 }
